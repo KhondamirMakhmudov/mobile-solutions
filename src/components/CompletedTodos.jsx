@@ -3,6 +3,10 @@ import ToDo from "./ToDo";
 import Button from "./Button";
 
 const CompletedTodos = ({goals, onDeleteGoal}) => {
+    if( goals.length === 0 ) {
+        return <p>Выполненных задач пока нет.</p>
+    }
+
     return (
         <>
 
