@@ -11,3 +11,165 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(#35535b, #294a52);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #47B2D0;
+}
+
+.hide {
+  background-color: #47B2D0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.warning {
+  background-color: #C1A111;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  color: #bbe3dd;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #486560;
+  background-color: #daedea;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #07302a;
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #338196;
+  background-color: #338196;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="checkbox"]  {
+
+  border: solid #fff;
+
+}
+
+input[type="checkbox"]:checked  {
+
+  border: solid #fff;
+
+}
+
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #b1c1c3;
+  margin: 30px 0;
+
+}
+
+.done-to-do {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.done-to-do p {
+
+  font-weight: bold;
+}
+
+.done-to-do:hover {
+  background-color: #daedea !important;
+  border: 1px solid #daedea !important;
+}
+
+
+ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+li {
+  background-color: #475357;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+li h2 {
+  font-size: 1.25rem;
+  color: #b1c1c3;
+  margin-bottom: 5px;
+}
+
+li p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #dfd9be;
+}
+
+li button {
+  font: inherit;
+  padding: 0.5rem;
+
+  border-radius: 4px;
+  border: 1px solid #FF5050;
+  background-color: #FF5050;
+  color: white;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+li button:hover {
+  background-color: #C73E3E;
+  border: 1px solid #C73E3E;
+}
+
+.sort-section {
+  display: flex;
+  gap: 1rem;
+}
+
+
